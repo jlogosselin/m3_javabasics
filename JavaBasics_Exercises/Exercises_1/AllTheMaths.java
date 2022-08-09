@@ -1,4 +1,4 @@
-package JavaBasics_Exercises.Exercises_One;
+package JavaBasics_Exercises.Exercises_1;
 
 public class AllTheMaths {
     public static void main(String[] args) {

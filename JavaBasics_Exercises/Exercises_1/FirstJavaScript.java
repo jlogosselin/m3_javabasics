@@ -1,4 +1,4 @@
-package JavaBasics_Exercises.Exercises_One;
+package JavaBasics_Exercises.Exercises_1;
 
 public class FirstJavaScript {
     public static void main(String[] args) {

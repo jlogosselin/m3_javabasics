@@ -1,4 +1,4 @@
-package JavaBasics_Exercises.Exercises_Two;
+package JavaBasics_Exercises.Exercises_2;
 
 public class AllAboutMe {
     public static void main(String[] args) {
