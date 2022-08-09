@@ -1,6 +1,6 @@
-package JavaBasics_Exercises;
+package JavaBasics_Exercises.Exercises_One;
 
-public class firstJavaScript {
+public class FirstJavaScript {
     public static void main(String[] args) {
 
         int v1 = 56;

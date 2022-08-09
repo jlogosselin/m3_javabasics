@@ -1,4 +1,4 @@
-package JavaBasics_Exercises;
+package JavaBasics_Exercises.Exercises_One;
 
 public class ProjectGutenberg {
     public static void main(String[] args) {
