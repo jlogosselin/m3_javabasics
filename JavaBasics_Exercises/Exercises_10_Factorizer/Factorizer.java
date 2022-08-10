@@ -24,7 +24,7 @@ public class Factorizer {
             }
         }
         factor_count++;
-        System.out.println(n + " has a total of " + factor_count + " factors. \n\n");
+        System.out.println(n + " has a total of " + factor_count + " factors (including itself). \n\n");
     }
 
     public static void isPrime(int n){
