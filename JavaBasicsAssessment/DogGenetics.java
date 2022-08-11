@@ -15,8 +15,6 @@ public class DogGenetics {
         System.out.println("Enter your dog's name:");
         String dogName = userInput.nextLine();
 
-        int facts = 0;
-
         ArrayList<String> dogBreeds = new ArrayList<String>();
         dogBreeds.add("St. Bernard");
         dogBreeds.add("Chihuahua");
