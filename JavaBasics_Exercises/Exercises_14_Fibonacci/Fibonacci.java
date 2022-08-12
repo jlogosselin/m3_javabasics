@@ -12,20 +12,20 @@ public class Fibonacci {
             System.out.println("Error: enter position starting from 3");
             pos = scanner.nextInt();
         }
-        int result = getItemInSeries(pos);
+        long result = getItemInSeries(pos);
         System.out.println("Fibo value at position " + pos + " = " + result);
     }
 
-    public static int getItemInSeries(int pos) {
+    public static long getItemInSeries(int pos) {
 
-        int n1 = 1;
-        int n2 = 1;
-        int result = 0;
+        long n1 = 1;
+        long n2 = 1;
+        long result = 0;
         int p = 2;
 
         while(p < pos){
             result = n1 + n2;
-            int temp = n1;
+            long temp = n1;
             n1 = result;
             n2 = temp;
             p += 1;
