@@ -44,7 +44,7 @@ public class RockPaperScissors {
             //displaying the winner:
             displayWinner(computerWins, playerWins);
 
-            System.out.println("Do you wish to play again? (No / Yes)");
+            playAgainMessage();
             playAgain = playAgain();
 
         }while(playAgain.equals("Yes"));
@@ -171,9 +171,18 @@ public class RockPaperScissors {
             return "Scissors";
     }
 
+    public static void playAgainMessage(){
+        System.out.println("Do you wish to play again? (No / Yes)");
+    }
+
     public static String playAgain(){
         Scanner userInput = new Scanner(System.in);
         String answer = userInput.nextLine();
+        while(!(answer.equals("No")) && !(answer.equals("Yes"))){
+            System.out.println("Sorry, incorrect input.");
+            playAgainMessage();
+            answer = userInput.nextLine();
+        }
         return answer;
     }
 
