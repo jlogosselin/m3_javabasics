@@ -9,6 +9,7 @@ public class DogGenetics {
 
     public static void main(String[] args) {
 
+        //scanner declaration
         Scanner userInput = new Scanner(System.in);
         Random rnd = new Random();
 
