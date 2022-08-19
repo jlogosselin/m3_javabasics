@@ -25,8 +25,8 @@ public class Exercises {
 
         //exercise 2: determine if given value is a perfect square
         System.out.println("Enter an integer to determine if it's a perfect square:");
-        double v2 = userInp.nextDouble();
-        if(Math.sqrt(v2) - (int)Math.sqrt(v2) == 0){
+        int v2 = userInp.nextInt();
+        if(Math.sqrt(Double.valueOf(v2)) - (int)Math.sqrt(Double.valueOf(v2)) == 0){
             System.out.println((int)v2 + " is a perfect square.");
         }
         else{
